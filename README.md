@@ -6,10 +6,10 @@ Create a simple and more understandable Android logs.
 
 #Why?
 
-android.util.Log is the most usable library of the Android. But, when the apps released on the market, some important information is clearly forgotten by the developer.
-DebugLog is the simple and powerful solution for this case. 
+android.util.Log is the most usable library of the Android. But, when the app released on the market, some important information is clearly forgotten by the developer. 
+All logs are disabled by DebugLog when the app is released.  
 
-and plus, it provides more understandable DDMS logs.
+And plus, it provides more understandable DDMS logs for developers.
 
 
 #Usage
