@@ -6,7 +6,7 @@ Create a simple and more understandable Android logs.
 
 #Why?
 
-android.util.Log is the most usable library of the Android. But, when we published our application on the market, some important information is clearly forgotten by the developer.
+android.util.Log is the most usable library of the Android. But, when the apps released on the market, some important information is clearly forgotten by the developer.
 DebugLog is the simple and powerful solution for this case. 
 
 and plus, it provides more understandable DDMS logs.
@@ -14,23 +14,29 @@ and plus, it provides more understandable DDMS logs.
 
 #Usage
 
-#####traditional android.util.Log usage:
-```java
+#####Traditional android.util.Log usage:
+```java 
 public static final String TAG = "MyApp or MyClass name";
 
-android.util.Log.i(TAG, "my message");
+void myFunc(){
+	android.util.Log.i(TAG, "my message");
+}
 ```
 
 Generally, this logs location forgotten after first day:) if the location hasn't been defined in log message.
 
 #####DebugLog usage:
 ```java
-DebugLog.i("my message");
+
+void myFunc(){
+	DebugLog.e("simple log from myFunc()");
+}
+
 ```
 
 no tags, and no any information. Just write your logs.
 
-It shows,
+It shows useful data;
 ![Screenshot](https://raw.github.com/MustafaFerhan/DebugLog/master/DebugLog-Demo/assets/ss2.jpg)
 ![Screenshot](https://raw.github.com/MustafaFerhan/DebugLog/master/DebugLog-Demo/assets/ss1.jpg)
 
