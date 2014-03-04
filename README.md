@@ -31,8 +31,8 @@ DebugLog.i("my message");
 no tags, and no any information. Just write your logs.
 
 It shows,
-![Screenshot](https://raw2.github.com/MustafaFerhan/MFCalendarView/master/calendarview-half.png)
-![Screenshot](https://raw2.github.com/MustafaFerhan/MFCalendarView/master/calendarview-half.png)
+![Screenshot](https://raw.github.com/MustafaFerhan/DebugLog/master/DebugLog-Demo/assets/ss2.jpg)
+![Screenshot](https://raw.github.com/MustafaFerhan/DebugLog/master/DebugLog-Demo/assets/ss1.jpg)
 
 
 #Contributing
