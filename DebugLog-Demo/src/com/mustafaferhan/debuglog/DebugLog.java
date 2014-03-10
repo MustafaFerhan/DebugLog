@@ -42,7 +42,8 @@ public class DebugLog{
 		StringBuffer buffer = new StringBuffer();
 		buffer.append("[");
 		buffer.append(methodName);
-		buffer.append(":"+lineNumber);
+		buffer.append(":");
+		buffer.append(lineNumber);
 		buffer.append("]");
 		buffer.append(log);
 
