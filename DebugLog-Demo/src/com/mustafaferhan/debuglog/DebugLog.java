@@ -28,6 +28,9 @@ public class DebugLog{
 	static String className;
 	static String methodName;
 	
+    private DebugLog(){
+        /* Protect from instantiations */
+    }
 
 	public static boolean isDebuggable(){
 		return BuildConfig.DEBUG;
