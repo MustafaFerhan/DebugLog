@@ -27,6 +27,7 @@ public class DebugLog{
 
 	static String className;
 	static String methodName;
+	static int lineNumber;
 	
     private DebugLog(){
         /* Protect from instantiations */
@@ -41,6 +42,8 @@ public class DebugLog{
 		StringBuffer buffer = new StringBuffer();
 		buffer.append("[");
 		buffer.append(methodName);
+		buffer.append(":");
+		buffer.append(lineNumber);
 		buffer.append("]");
 		buffer.append(log);
 
@@ -50,6 +53,7 @@ public class DebugLog{
 	private static void getMethodNames(StackTraceElement[] sElements){
 		className = sElements[1].getFileName();
 		methodName = sElements[1].getMethodName();
+		lineNumber = sElements[1].getLineNumber();
 	}
 
 	public static void e(String message){
