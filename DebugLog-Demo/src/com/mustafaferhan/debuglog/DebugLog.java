@@ -29,11 +29,11 @@ public class DebugLog{
 	static String methodName;
 	
 
-	public static boolean isDebuggable(){
+	public static boolean isDebuggable() {
 		return BuildConfig.DEBUG;
 	}
 
-	private static String createLog(String log){
+	private static String createLog( String log ) {
 
 		StringBuffer buffer = new StringBuffer();
 		buffer.append("[");
