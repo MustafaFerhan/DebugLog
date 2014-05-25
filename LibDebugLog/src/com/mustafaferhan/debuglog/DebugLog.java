@@ -13,8 +13,6 @@ package com.mustafaferhan.debuglog;
 
 import android.util.Log;
 
-import com.mustafaferhan.debuglog_demo.BuildConfig;
-
 
 /**
  * @date 21.06.2012
@@ -33,11 +31,11 @@ public class DebugLog{
         /* Protect from instantiations */
     }
 
-	public static boolean isDebuggable(){
+	public static boolean isDebuggable() {
 		return BuildConfig.DEBUG;
 	}
 
-	private static String createLog(String log){
+	private static String createLog( String log ) {
 
 		StringBuffer buffer = new StringBuffer();
 		buffer.append("[");
