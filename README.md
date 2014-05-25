@@ -24,6 +24,7 @@ void myFunc(){
 ```
 
 Generally, this logs location forgotten after first day:) if the location hasn't been defined in log message.
+Add **LibDebugLog** as a library to your project and you are good to go.
 
 #####DebugLog usage:
 ```java
