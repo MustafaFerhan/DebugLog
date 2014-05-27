@@ -42,6 +42,15 @@ It shows useful data;
 ![Screenshot](https://raw.github.com/MustafaFerhan/DebugLog/master/DebugLog-Demo/assets/ss1.jpg)
 
 
+##Android Studio
+if you use Android Studio, all logs are disabled by DebugLog when the build variant is set 'release'
+
+![Screenshot](https://raw.githubusercontent.com/MustafaFerhan/DebugLog/master/buildvariants.png)
+
+##Eclipse
+if you use Eclipse, all logs are disabled by DebugLog when the generated new signed apk.
+
+
 #Contributing
 
 Want to contribute? You are welcome!
