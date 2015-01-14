@@ -1,8 +1,9 @@
+[![Android Weekly](http://img.shields.io/badge/Android%20Weekly-%2392-2CB3E5.svg?style=flat)](http://androidweekly.net/issues/issue-92)
+
 DebugLog
 ========
 
 Create a simple and more understandable Android logs. 
-
 
 #Why?
 
