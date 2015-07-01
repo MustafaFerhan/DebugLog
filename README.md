@@ -51,6 +51,40 @@ if you use Android Studio, all logs are disabled by DebugLog when the build vari
 ##Eclipse
 if you use Eclipse, all logs are disabled by DebugLog when the generated new signed apk.
 
+#Add Your Project
+##Gradle
+
+```java
+repositories {
+    maven {
+        url "https://jitpack.io"
+    }
+}
+```
+
+```java
+dependencies {
+	compile 'com.github.MustafaFerhan:DebugLog:55b2737be4'
+}
+```
+
+##Maven
+
+```java
+<repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+</repository>
+```
+
+```java
+<dependency>
+    <groupId>com.github.MustafaFerhan</groupId>
+    <artifactId>DebugLog</artifactId>
+    <version>55b2737be4</version>
+</dependency>
+```
+
 
 #Contributing
 
