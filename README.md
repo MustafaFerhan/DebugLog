@@ -64,7 +64,7 @@ repositories {
 
 ```java
 dependencies {
-	compile 'com.github.MustafaFerhan:DebugLog:55b2737be4'
+	compile 'com.github.MustafaFerhan:DebugLog:v1.0'
 }
 ```
 
@@ -81,7 +81,7 @@ dependencies {
 <dependency>
     <groupId>com.github.MustafaFerhan</groupId>
     <artifactId>DebugLog</artifactId>
-    <version>55b2737be4</version>
+    <version>v1.0</version>
 </dependency>
 ```
 
